@@ -9,6 +9,7 @@ def home():
 
 @app.route('/', methods=['POST'])
 def run_script():
+    print("Started Camera")
     subprocess.run(['python', 'MacControl.py'])
     return redirect(url_for('home'))
 
