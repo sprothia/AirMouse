@@ -1,6 +1,7 @@
 from flask import Flask, render_template, redirect, url_for
 import subprocess
-        
+import sys
+
 app = Flask(__name__)
 
 @app.route('/')
@@ -9,8 +10,7 @@ def home():
 
 @app.route('/', methods=['POST'])
 def run_script():
-    print("Started Camera")
-    subprocess.run(['python', 'MacControl.py'])
+    subprocess.run([f"{sys.executable}", 'MacControl.py'])
     return redirect(url_for('home'))
 
 if __name__ == "__main__":
