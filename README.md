@@ -4,13 +4,13 @@
 
 # Introduction
 ### Airmouse is an AI project built with Python and many libraries/frameworks such as Mediapipe, OpenCV, numpy, and more. Using hand recognition, you can control many actions that your computers mouse performs such as clicking and scrolling.
-   * Hold up certain fingers to control different parts of your mouse such as simple navigation or left-clicking
+   * Hold up certain fingers to control things like moving your mouse or scrolling
    * Built a simple website that allows users to learn how to control their mouse with their fingers, using HTMl, CSS, Flask and Google Cloud Platform
 
 
 # Mouse Controls 
 
- - Move Mouse ☝️
+ - Move Mouse ☝️ ![Move Mouse](./mouse_real.png)
  - Left Click 👆
  - Scroll Down ✊
  - Scroll Up :v:
