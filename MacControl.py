@@ -63,26 +63,6 @@ def draw_finger_angle_middle(results, joint_list_middle):
             macCom.decrement_volume()
             time.sleep(0.5)
 
-def draw_finger_angle_thumb(results, joint_list_thumb, website_name):
-
-    for hand in results.multi_hand_landmarks:  
-             
-        a = np.array([hand.landmark[joint_list_thumb[0]].x, hand.landmark[joint_list_thumb[0]].y])
-        b = np.array([hand.landmark[joint_list_thumb[1]].x, hand.landmark[joint_list_thumb[1]].y])
-        c = np.array([hand.landmark[joint_list_thumb[2]].x, hand.landmark[joint_list_thumb[2]].y])
-
-        radians = np.arctan2(c[1]-b[1], c[0] - b[0]) - np.arctan2(a[1]-b[1], a[0]-b[0])
-        angle = np.abs(radians*180.0/np.pi)
-        
-        if angle > 180.0:
-            angle = 360-angle 
-            
-        if angle < 155.0:
-            print("Choice Command")
-            # macCom.open_website(website_name)
-            time.sleep(0.5)
-                            
-                
 while True:
 
     success, image = cap.read()
@@ -99,10 +79,7 @@ while True:
             if fingers[0] == 1 and fingers[3] == 1 and fingers[4] == 1:                             
                 draw_finger_angle_pointer(detector.results, joint_list_pointer)
                 draw_finger_angle_middle(detector.results, joint_list_middle)
-                 ## Make this customiazable using if commands
-                 # draw_finger_angle_thumb(results, joint_list_thumb, 'www.amazon.com')
-
-                
+                 
         cv2.rectangle(image, (frameReduction, frameReduction), (wCam-frameReduction, hCam-frameReduction), (255,0,255), 2)
 
         #Mouse
@@ -144,11 +121,3 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
     
-
-######### Unused code
-    
-    # with mp_hands.Hands(min_detection_confidence=0.3, min_tracking_confidence=0.3) as hands:        
-    #     ret, frame = cap.read()
-    #     image = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-    #     results = hands.process(image)
- 
