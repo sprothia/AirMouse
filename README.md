@@ -9,16 +9,57 @@
 
 
 # Mouse Controls 
+### Reminder :bell::  Palm should be facing camera like in demo video
 
- - Move Mouse ☝️ ![Move Mouse](./mouse_real.png)
- - Left Click 👆
- - Scroll Down ✊
- - Scroll Up :v:
+ - ## Move Mouse ☝️  
+ 
+    <div style="display:flex;"> 
+     <img src="https://github.com/sprothia/AirMouse/blob/main/static/mouse_away.png?raw=True" alt="Move Mouse" width="40px" height="110px"/>
+    </div>
+    
+    Keep all your fingers down except the pointer finger, which you will move inside of the purple box
+ 
+ - ## Left Click 👆
+ 
+    <div style="display:flex;"> 
+     <img src="https://github.com/sprothia/AirMouse/blob/main/static/mouse_click_away.png?raw=True" alt="Move Mouse" width="40px" height="110px"/>
+    </div>
+    
+    hold up the pointer finger and rapidly open and close your thumb
+    
+ - ## Scroll Down ✊
+
+    <div style="display:flex;"> 
+     <img src="https://github.com/sprothia/AirMouse/blob/main/static/mouse_scroll_down_away.png?raw=True" alt="Move Mouse" width="40px" height="110px"/>
+    </div>
+    
+    hold up a fist, with every finger down
+    
+ - ## Scroll Up :v:
+ 
+    <div style="display:flex;"> 
+     <img src="https://github.com/sprothia/AirMouse/blob/main/static/mouse_scroll_up_away.png?raw=True" alt="Move Mouse" width="40px" height="110px"/>
+    </div>
+    
+    hold up a 2, with only the pointer and middle finger up
 
 # Other Controls
 
- - Volume Down :sound:
- - Volume Up :loud_sound:
+ - ## Volume Down :sound:
+ 
+    <div style="display:flex;"> 
+     <img src="https://github.com/sprothia/AirMouse/blob/main/static//volume_down_Sketchpng.png?raw=True" alt="Move Mouse" width="50px" height="100px"/>
+    </div>
+    
+    lower the pointer finger slightly while holding up all other fingers.
+    
+ - ## Volume Up :loud_sound:
+
+    <div style="display:flex;"> 
+     <img src="https://github.com/sprothia/AirMouse/blob/main/static/volume_up_sketch.png?raw=True" alt="Move Mouse" width="50px" height="100px"/>
+    </div>
+    
+    lower the middle finger slightly while holding up all other fingers.
 
 # Demo 
  - https://www.youtube.com/watch?v=06isugZY73E
