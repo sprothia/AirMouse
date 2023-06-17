@@ -66,7 +66,7 @@
     ####        lower the middle finger slightly while holding up all other fingers.
 
 # Demo 
- - https://www.youtube.com/watch?v=06isugZY73E
+ - [![asciicast](https://github.com/sprothia/AirMouse/blob/main/static/thumbnail.png?raw=True)](https://www.youtube.com/watch?v=06isugZY73E)
 
 # Project Website
  - https://air-mouse-389900.wm.r.appspot.com/
