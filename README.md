@@ -7,6 +7,10 @@
    * Hold up certain fingers to control things like moving your mouse or scrolling
    * Built a simple website that allows users to learn how to control their mouse with their fingers, using HTMl, CSS, Flask and Google Cloud Platform
 
+# Requirements
+ - MacOS
+ - Web Cam: Attach webcam to your computer and make sure ****palm is facing towards the camera**** like in the Demo Video
+ - Lighting: should have good lighting and hand should be ****clearly visible****
 
 # Mouse Controls 
 ### Reminder :bell::  Palm should be facing camera like in demo video
@@ -17,7 +21,7 @@
      <img src="https://github.com/sprothia/AirMouse/blob/main/static/mouse_away.png?raw=True" alt="Move Mouse" width="40px" height="110px"/>
     </div>
     
-    Keep all your fingers down except the pointer finger, which you will move inside of the purple box
+    ####        Keep all your fingers down except the pointer finger, which you will move inside of the purple box
  
  - ## Left Click 👆
  
@@ -25,7 +29,7 @@
      <img src="https://github.com/sprothia/AirMouse/blob/main/static/mouse_click_away.png?raw=True" alt="Move Mouse" width="40px" height="110px"/>
     </div>
     
-    hold up the pointer finger and rapidly open and close your thumb
+    ####       hold up the pointer finger and rapidly open and close your thumb
     
  - ## Scroll Down ✊
 
@@ -33,7 +37,7 @@
      <img src="https://github.com/sprothia/AirMouse/blob/main/static/mouse_scroll_down_away.png?raw=True" alt="Move Mouse" width="40px" height="110px"/>
     </div>
     
-    hold up a fist, with every finger down
+    ####       hold up a fist, with every finger down
     
  - ## Scroll Up :v:
  
@@ -41,7 +45,7 @@
      <img src="https://github.com/sprothia/AirMouse/blob/main/static/mouse_scroll_up_away.png?raw=True" alt="Move Mouse" width="40px" height="110px"/>
     </div>
     
-    hold up a 2, with only the pointer and middle finger up
+    ####       hold up a 2, with only the pointer and middle finger up
 
 # Other Controls
 
@@ -51,7 +55,7 @@
      <img src="https://github.com/sprothia/AirMouse/blob/main/static//volume_down_Sketchpng.png?raw=True" alt="Move Mouse" width="50px" height="100px"/>
     </div>
     
-    lower the pointer finger slightly while holding up all other fingers.
+    ####       lower the pointer finger slightly while holding up all other fingers.
     
  - ## Volume Up :loud_sound:
 
@@ -59,18 +63,13 @@
      <img src="https://github.com/sprothia/AirMouse/blob/main/static/volume_up_sketch.png?raw=True" alt="Move Mouse" width="50px" height="100px"/>
     </div>
     
-    lower the middle finger slightly while holding up all other fingers.
+    ####        lower the middle finger slightly while holding up all other fingers.
 
 # Demo 
  - https://www.youtube.com/watch?v=06isugZY73E
 
 # Project Website
  - https://air-mouse-389900.wm.r.appspot.com/
-
-# Requirements
- - MacOS
- - Web Cam: Attach webcam to your computer and make sure ****palm is facing towards the camera**** like in the Demo Video
- - Lighting: should have good lighting and hand should be ****clearly visible****
 
 # Technologies
  - Python 🐍
@@ -94,3 +93,6 @@
  ```
  pip install -r requirements.txt
  ```
+ 
+ # License
+ [MIT License](LICENSE)
