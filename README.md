@@ -68,9 +68,6 @@
 # Demo 
  - [![asciicast](https://github.com/sprothia/AirMouse/blob/main/static/thumbnail.png?raw=True)](https://youtu.be/Sq4yyo_Dz_Y)
 
-# Project Website
- - https://air-mouse-389900.wm.r.appspot.com/
-
 # Technologies
  - Python 🐍
    * OpenCV for Computer Vision
