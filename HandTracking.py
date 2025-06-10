@@ -1,6 +1,3 @@
-# This is a helper file from the YouTuber: Murtaza's Workshop - Robotics and AI
-
-
 import cv2
 import mediapipe as mp
 import time
